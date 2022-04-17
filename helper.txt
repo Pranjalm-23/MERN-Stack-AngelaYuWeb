@@ -1,0 +1,3 @@
+command to access mongodb cluster using local shell --todolist
+
+"E:/Tools/MongoDB/Server/5.0/bin/mongo.exe" "mongodb+srv://cluster0.fxurg.mongodb.net/myFirstDatabase" --username admin-pranjal

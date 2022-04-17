@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <title>React | PranjalM</title>
+  </head>
+  <body>
+    <div id="mydiv"></div>
+
+    <script type="text/babel">
+      ReactDOM.render(
+        <div contentEditable="true">
+          <h1>Pranjal</h1>
+          <img src="https://picsum.photos/500?grayscale" />
+        </div>,
+        document.getElementById("mydiv")
+      );
+    </script>
+  </body>
+</html>

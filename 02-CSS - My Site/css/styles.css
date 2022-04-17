@@ -1,0 +1,56 @@
+/***************************TAG SELECTORS******************************/
+body{
+  margin: 0;
+  text-align: center;
+  font-family: verdana, sans-serif;
+}
+
+h1{
+  margin: 0;
+
+}
+
+
+
+/***************************CLASS SELECTORS******************************/
+.top-container{
+  background-color: #CFFFDC;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+
+.bottom-container{
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+
+
+
+
+
+
+/***************************ID SELECTORS*********************************/
